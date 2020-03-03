@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/feiss/aframe-environment-component/76b2bbf3/aframe-environment-component.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pandora Labs</title>
+</head>
+
+<body>
+
+
+
+
+
+    <a-scene shadow="basic" light="defaultLightsEnabled: false">
+        <a-assets>
+            <asset-item id="objectBulb.000.obj" src="assets/Bulb.000.obj"></asset-item>
+            <asset-item id="objectBulb.001.obj" src="assets/Bulb.001.obj"></asset-item>
+            <asset-item id="objectBulb.004.obj" src="assets/Bulb.004.obj"></asset-item>
+            <asset-item id="objectBulb.005.obj" src="assets/Bulb.005.obj"></asset-item>
+            <asset-item id="objectCircle.002.obj" src="assets/Circle.002.obj"></asset-item>
+            <asset-item id="objectCircle.006.obj" src="assets/Circle.006.obj"></asset-item>
+            <asset-item id="objectCircle.029.obj" src="assets/Circle.029.obj"></asset-item>
+            <asset-item id="objectCircle.030.obj" src="assets/Circle.030.obj"></asset-item>
+            <asset-item id="objectCircle.031.obj" src="assets/Circle.031.obj"></asset-item>
+            <asset-item id="objectCircle.032.obj" src="assets/Circle.032.obj"></asset-item>
+            <asset-item id="objectCircle.033.obj" src="assets/Circle.033.obj"></asset-item>
+            <asset-item id="objectCircle.034.obj" src="assets/Circle.034.obj"></asset-item>
+            <asset-item id="objectCircle.035.obj" src="assets/Circle.035.obj"></asset-item>
+            <asset-item id="objectCircle.036.obj" src="assets/Circle.036.obj"></asset-item>
+            <asset-item id="objectCircle.037.obj" src="assets/Circle.037.obj"></asset-item>
+            <asset-item id="objectCircle.038.obj" src="assets/Circle.038.obj"></asset-item>
+            <asset-item id="objectCircle.039.obj" src="assets/Circle.039.obj"></asset-item>
+            <asset-item id="objectCircle.040.obj" src="assets/Circle.040.obj"></asset-item>
+            <asset-item id="objectCircle.041.obj" src="assets/Circle.041.obj"></asset-item>
+            <asset-item id="objectCircle.042.obj" src="assets/Circle.042.obj"></asset-item>
+            <asset-item id="objectCircle.043.obj" src="assets/Circle.043.obj"></asset-item>
+            <asset-item id="objectCircle.044.obj" src="assets/Circle.044.obj"></asset-item>
+            <asset-item id="objectCircle.060.obj" src="assets/Circle.060.obj"></asset-item>
+            <asset-item id="objectCircle.063.obj" src="assets/Circle.063.obj"></asset-item>
+            <asset-item id="objectCircle.064.obj" src="assets/Circle.064.obj"></asset-item>
+            <asset-item id="objectCircle.065.obj" src="assets/Circle.065.obj"></asset-item>
+            <asset-item id="objectCircle.067.obj" src="assets/Circle.067.obj"></asset-item>
+            <asset-item id="objectCircle.068.obj" src="assets/Circle.068.obj"></asset-item>
+            <asset-item id="objectCircle.120.obj" src="assets/Circle.120.obj"></asset-item>
+            <asset-item id="objectCircle.obj" src="assets/Circle.obj"></asset-item>
+            <asset-item id="objectCube.001.obj" src="assets/Cube.001.obj"></asset-item>
+            <asset-item id="objectCube.009.obj" src="assets/Cube.009.obj"></asset-item>
+            <asset-item id="objectCube.016.obj" src="assets/Cube.016.obj"></asset-item>
+            <asset-item id="objectCube.020.obj" src="assets/Cube.020.obj"></asset-item>
+            <asset-item id="objectCurve.001.obj" src="assets/Curve.001.obj"></asset-item>
+            <asset-item id="objectCurve.005.obj" src="assets/Curve.005.obj"></asset-item>
+            <asset-item id="objectibm1620.001.obj" src="assets/ibm1620.001.obj"></asset-item>
+            <asset-item id="objectibm1620.obj" src="assets/ibm1620.obj"></asset-item>
+            <asset-item id="objectLine293.002.obj" src="assets/Line293.002.obj"></asset-item>
+            <asset-item id="objectLine293.003.obj" src="assets/Line293.003.obj"></asset-item>
+            <asset-item id="objectpandora's_lab_branding_v3.001.obj" src="assets/pandora's_lab_branding_v3.001.obj"></asset-item>
+            <asset-item id="objectpandora's_lab_branding_v3.obj" src="assets/pandora's_lab_branding_v3.obj"></asset-item>
+            <asset-item id="objectPlane.001.obj" src="assets/Plane.001.obj"></asset-item>
+            <asset-item id="objectPlane.002.obj" src="assets/Plane.002.obj"></asset-item>
+            <asset-item id="objectPlane.005.obj" src="assets/Plane.005.obj"></asset-item>
+            <asset-item id="objectPlane.006.obj" src="assets/Plane.006.obj"></asset-item>
+            <asset-item id="objectPlane.007.obj" src="assets/Plane.007.obj"></asset-item>
+            <asset-item id="objectPlane.008.obj" src="assets/Plane.008.obj"></asset-item>
+            <asset-item id="objectPlane.009.obj" src="assets/Plane.009.obj"></asset-item>
+            <asset-item id="objectPlane.014.obj" src="assets/Plane.014.obj"></asset-item>
+            <asset-item id="objectPlane.015.obj" src="assets/Plane.015.obj"></asset-item>
+            <asset-item id="objectPlane.016.obj" src="assets/Plane.016.obj"></asset-item>
+            <asset-item id="objectPlane.017.obj" src="assets/Plane.017.obj"></asset-item>
+            <asset-item id="objectPlane.018.obj" src="assets/Plane.018.obj"></asset-item>
+            <asset-item id="objectPlane.052.obj" src="assets/Plane.052.obj"></asset-item>
+            <asset-item id="objectPlane.061.obj" src="assets/Plane.061.obj"></asset-item>
+            <asset-item id="objectPlane.073.obj" src="assets/Plane.073.obj"></asset-item>
+            <asset-item id="objectPlane.obj" src="assets/Plane.obj"></asset-item>
+            <asset-item id="objectRobot.obj" src="assets/Robot.obj"></asset-item>
+            <asset-item id="objectSpeaker.002.obj" src="assets/Speaker.002.obj"></asset-item>
+            <asset-item id="objectSpeaker.003.obj" src="assets/Speaker.003.obj"></asset-item>
+            <asset-item id="objectSpeaker.004.obj" src="assets/Speaker.004.obj"></asset-item>
+            <asset-item id="objectSpeaker.005.obj" src="assets/Speaker.005.obj"></asset-item>
+            <asset-item id="objectSpeaker.obj" src="assets/Speaker.obj"></asset-item>
+            <asset-item id="objectText.obj" src="assets/Text.obj"></asset-item>
+            <asset-item id="objectTorus.002.obj" src="assets/Torus.002.obj"></asset-item>
+
+            <asset-item id="materialBulb.000.mtl" src="assets/Bulb.000.mtl"></asset-item>
+            <asset-item id="materialBulb.001.mtl" src="assets/Bulb.001.mtl"></asset-item>
+            <asset-item id="materialBulb.004.mtl" src="assets/Bulb.004.mtl"></asset-item>
+            <asset-item id="materialBulb.005.mtl" src="assets/Bulb.005.mtl"></asset-item>
+            <asset-item id="materialCircle.002.mtl" src="assets/Circle.002.mtl"></asset-item>
+            <asset-item id="materialCircle.006.mtl" src="assets/Circle.006.mtl"></asset-item>
+            <asset-item id="materialCircle.029.mtl" src="assets/Circle.029.mtl"></asset-item>
+            <asset-item id="materialCircle.030.mtl" src="assets/Circle.030.mtl"></asset-item>
+            <asset-item id="materialCircle.031.mtl" src="assets/Circle.031.mtl"></asset-item>
+            <asset-item id="materialCircle.032.mtl" src="assets/Circle.032.mtl"></asset-item>
+            <asset-item id="materialCircle.033.mtl" src="assets/Circle.033.mtl"></asset-item>
+            <asset-item id="materialCircle.034.mtl" src="assets/Circle.034.mtl"></asset-item>
+            <asset-item id="materialCircle.035.mtl" src="assets/Circle.035.mtl"></asset-item>
+            <asset-item id="materialCircle.036.mtl" src="assets/Circle.036.mtl"></asset-item>
+            <asset-item id="materialCircle.037.mtl" src="assets/Circle.037.mtl"></asset-item>
+            <asset-item id="materialCircle.038.mtl" src="assets/Circle.038.mtl"></asset-item>
+            <asset-item id="materialCircle.039.mtl" src="assets/Circle.039.mtl"></asset-item>
+            <asset-item id="materialCircle.040.mtl" src="assets/Circle.040.mtl"></asset-item>
+            <asset-item id="materialCircle.041.mtl" src="assets/Circle.041.mtl"></asset-item>
+            <asset-item id="materialCircle.042.mtl" src="assets/Circle.042.mtl"></asset-item>
+            <asset-item id="materialCircle.043.mtl" src="assets/Circle.043.mtl"></asset-item>
+            <asset-item id="materialCircle.044.mtl" src="assets/Circle.044.mtl"></asset-item>
+            <asset-item id="materialCircle.060.mtl" src="assets/Circle.060.mtl"></asset-item>
+            <asset-item id="materialCircle.063.mtl" src="assets/Circle.063.mtl"></asset-item>
+            <asset-item id="materialCircle.064.mtl" src="assets/Circle.064.mtl"></asset-item>
+            <asset-item id="materialCircle.065.mtl" src="assets/Circle.065.mtl"></asset-item>
+            <asset-item id="materialCircle.067.mtl" src="assets/Circle.067.mtl"></asset-item>
+            <asset-item id="materialCircle.068.mtl" src="assets/Circle.068.mtl"></asset-item>
+            <asset-item id="materialCircle.120.mtl" src="assets/Circle.120.mtl"></asset-item>
+            <asset-item id="materialCircle.mtl" src="assets/Circle.mtl"></asset-item>
+            <asset-item id="materialCube.001.mtl" src="assets/Cube.001.mtl"></asset-item>
+            <asset-item id="materialCube.009.mtl" src="assets/Cube.009.mtl"></asset-item>
+            <asset-item id="materialCube.016.mtl" src="assets/Cube.016.mtl"></asset-item>
+            <asset-item id="materialCube.020.mtl" src="assets/Cube.020.mtl"></asset-item>
+            <asset-item id="materialCurve.001.mtl" src="assets/Curve.001.mtl"></asset-item>
+            <asset-item id="materialCurve.005.mtl" src="assets/Curve.005.mtl"></asset-item>
+            <asset-item id="materialibm1620.001.mtl" src="assets/ibm1620.001.mtl"></asset-item>
+            <asset-item id="materialibm1620.mtl" src="assets/ibm1620.mtl"></asset-item>
+            <asset-item id="materialLine293.002.mtl" src="assets/Line293.002.mtl"></asset-item>
+            <asset-item id="materialLine293.003.mtl" src="assets/Line293.003.mtl"></asset-item>
+            <asset-item id="materialpandora's_lab_branding_v3.001.mtl" src="assets/pandora's_lab_branding_v3.001.mtl"></asset-item>
+            <asset-item id="materialpandora's_lab_branding_v3.mtl" src="assets/pandora's_lab_branding_v3.mtl"></asset-item>
+            <asset-item id="materialPlane.001.mtl" src="assets/Plane.001.mtl"></asset-item>
+            <asset-item id="materialPlane.002.mtl" src="assets/Plane.002.mtl"></asset-item>
+            <asset-item id="materialPlane.005.mtl" src="assets/Plane.005.mtl"></asset-item>
+            <asset-item id="materialPlane.006.mtl" src="assets/Plane.006.mtl"></asset-item>
+            <asset-item id="materialPlane.007.mtl" src="assets/Plane.007.mtl"></asset-item>
+            <asset-item id="materialPlane.008.mtl" src="assets/Plane.008.mtl"></asset-item>
+            <asset-item id="materialPlane.009.mtl" src="assets/Plane.009.mtl"></asset-item>
+            <asset-item id="materialPlane.014.mtl" src="assets/Plane.014.mtl"></asset-item>
+            <asset-item id="materialPlane.015.mtl" src="assets/Plane.015.mtl"></asset-item>
+            <asset-item id="materialPlane.016.mtl" src="assets/Plane.016.mtl"></asset-item>
+            <asset-item id="materialPlane.017.mtl" src="assets/Plane.017.mtl"></asset-item>
+            <asset-item id="materialPlane.018.mtl" src="assets/Plane.018.mtl"></asset-item>
+            <asset-item id="materialPlane.052.mtl" src="assets/Plane.052.mtl"></asset-item>
+            <asset-item id="materialPlane.061.mtl" src="assets/Plane.061.mtl"></asset-item>
+            <asset-item id="materialPlane.073.mtl" src="assets/Plane.073.mtl"></asset-item>
+            <asset-item id="materialPlane.mtl" src="assets/Plane.mtl"></asset-item>
+            <asset-item id="materialRobot.mtl" src="assets/Robot.mtl"></asset-item>
+            <asset-item id="materialSpeaker.002.mtl" src="assets/Speaker.002.mtl"></asset-item>
+            <asset-item id="materialSpeaker.003.mtl" src="assets/Speaker.003.mtl"></asset-item>
+            <asset-item id="materialSpeaker.004.mtl" src="assets/Speaker.004.mtl"></asset-item>
+            <asset-item id="materialSpeaker.005.mtl" src="assets/Speaker.005.mtl"></asset-item>
+            <asset-item id="materialSpeaker.mtl" src="assets/Speaker.mtl"></asset-item>
+            <asset-item id="materialText.mtl" src="assets/Text.mtl"></asset-item>
+            <asset-item id="materialTorus.002.mtl" src="assets/Torus.002.mtl"></asset-item>
+        </a-assets>
+
+        <a-obj-model src="#objectBulb.000.obj" mtl="#materialBulb.000.mtl"></a-obj-model>
+        <a-obj-model src="#objectBulb.001.obj" mtl="#materialBulb.001.mtl"></a-obj-model>
+        <a-obj-model src="#objectBulb.004.obj" mtl="#materialBulb.004.mtl"></a-obj-model>
+        <a-obj-model src="#objectBulb.005.obj" mtl="#materialBulb.005.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.002.obj" mtl="#materialCircle.002.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.006.obj" mtl="#materialCircle.006.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.029.obj" mtl="#materialCircle.029.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.030.obj" mtl="#materialCircle.030.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.031.obj" mtl="#materialCircle.031.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.032.obj" mtl="#materialCircle.032.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.033.obj" mtl="#materialCircle.033.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.034.obj" mtl="#materialCircle.034.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.035.obj" mtl="#materialCircle.035.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.036.obj" mtl="#materialCircle.036.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.037.obj" mtl="#materialCircle.037.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.038.obj" mtl="#materialCircle.038.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.039.obj" mtl="#materialCircle.039.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.040.obj" mtl="#materialCircle.040.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.041.obj" mtl="#materialCircle.041.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.042.obj" mtl="#materialCircle.042.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.043.obj" mtl="#materialCircle.043.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.044.obj" mtl="#materialCircle.044.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.060.obj" mtl="#materialCircle.060.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.063.obj" mtl="#materialCircle.063.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.064.obj" mtl="#materialCircle.064.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.065.obj" mtl="#materialCircle.065.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.067.obj" mtl="#materialCircle.067.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.068.obj" mtl="#materialCircle.068.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.120.obj" mtl="#materialCircle.120.mtl"></a-obj-model>
+        <a-obj-model src="#objectCircle.obj" mtl="#materialCircle.mtl"></a-obj-model>
+        <a-obj-model src="#objectCube.001.obj" mtl="#materialCube.001.mtl"></a-obj-model>
+        <a-obj-model src="#objectCube.009.obj" mtl="#materialCube.009.mtl"></a-obj-model>
+        <a-obj-model src="#objectCube.016.obj" mtl="#materialCube.016.mtl"></a-obj-model>
+        <a-obj-model src="#objectCube.020.obj" mtl="#materialCube.020.mtl"></a-obj-model>
+        <a-obj-model src="#objectCurve.001.obj" mtl="#materialCurve.001.mtl"></a-obj-model>
+        <a-obj-model src="#objectCurve.005.obj" mtl="#materialCurve.005.mtl"></a-obj-model>
+        <a-obj-model src="#objectibm1620.001.obj" mtl="#materialibm1620.001.mtl"></a-obj-model>
+        <a-obj-model src="#objectibm1620.obj" mtl="#materialibm1620.mtl"></a-obj-model>
+        <a-obj-model src="#objectLine293.002.obj" mtl="#materialLine293.002.mtl"></a-obj-model>
+        <a-obj-model src="#objectLine293.003.obj" mtl="#materialLine293.003.mtl"></a-obj-model>
+        <a-obj-model src="#objectpandora's_lab_branding_v3.001.obj" mtl="#materialpandora's_lab_branding_v3.001.mtl"></a-obj-model>
+        <a-obj-model src="#objectpandora's_lab_branding_v3.obj" mtl="#materialpandora's_lab_branding_v3.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.001.obj" mtl="#materialPlane.001.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.002.obj" mtl="#materialPlane.002.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.005.obj" mtl="#materialPlane.005.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.006.obj" mtl="#materialPlane.006.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.007.obj" mtl="#materialPlane.007.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.008.obj" mtl="#materialPlane.008.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.009.obj" mtl="#materialPlane.009.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.014.obj" mtl="#materialPlane.014.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.015.obj" mtl="#materialPlane.015.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.016.obj" mtl="#materialPlane.016.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.017.obj" mtl="#materialPlane.017.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.018.obj" mtl="#materialPlane.018.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.052.obj" mtl="#materialPlane.052.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.061.obj" mtl="#materialPlane.061.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.073.obj" mtl="#materialPlane.073.mtl"></a-obj-model>
+        <a-obj-model src="#objectPlane.obj" mtl="#materialPlane.mtl"></a-obj-model>
+        <a-obj-model src="#objectRobot.obj" mtl="#materialRobot.mtl"></a-obj-model>
+        <a-obj-model src="#objectSpeaker.002.obj" mtl="#materialSpeaker.002.mtl"></a-obj-model>
+        <a-obj-model src="#objectSpeaker.003.obj" mtl="#materialSpeaker.003.mtl"></a-obj-model>
+        <a-obj-model src="#objectSpeaker.004.obj" mtl="#materialSpeaker.004.mtl"></a-obj-model>
+        <a-obj-model src="#objectSpeaker.005.obj" mtl="#materialSpeaker.005.mtl"></a-obj-model>
+        <a-obj-model src="#objectSpeaker.obj" mtl="#materialSpeaker.mtl"></a-obj-model>
+        <a-obj-model src="#objectText.obj" mtl="#materialText.mtl"></a-obj-model>
+        <a-obj-model src="#objectTorus.002.obj" mtl="#materialTorus.002.mtl"></a-obj-model>
+        
+        <a-entity position="0 50 0" light="type: hemisphere; color: #ffffbf; intensity: 0.4" visible=""></a-entity>
+        <a-entity position="0 50 0" light="type: hemisphere; color: #CEE4F0; intensity: 0.4" visible=""></a-entity>
+        <a-entity position="-0.11 1 0.33" light="intensity: 0.6" visible=""></a-entity>
+    </a-scene>
+
+</body>
+
+</html>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
