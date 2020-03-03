@@ -1,0 +1,15 @@
+# Blender v2.82 (sub 7) OBJ File: 'MasterNarrativeScene.blend'
+# www.blender.org
+mtllib pandora's_lab_branding_v3.001.mtl
+o pandora's_lab_branding_v3.001
+v 0.649245 5.096429 5.201432
+v 0.649245 6.061309 5.201432
+v -0.248747 5.096429 5.201432
+v -0.248747 6.061309 5.201432
+vt 1.000000 0.000000
+vt 1.000000 1.000000
+vt 0.000000 1.000000
+vt 0.000000 0.000000
+usemtl pandora's_lab_branding_v3
+s off
+f 1/1 2/2 4/3 3/4
